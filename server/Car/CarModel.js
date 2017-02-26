@@ -1,11 +1,11 @@
-var mongoose = require('mongoose');
+let mongoose = require('mongoose');
 
-var CarSchema = new mongoose.Schema({
-	name : String,
-	color :String,
-	price:String
+let CarSchema = new mongoose.Schema({
+    name: String,
+    color: String,
+    price: String,
 });
 
-var Car = mongoose.model('Car', CarSchema);
+let Car = mongoose.model('Car', CarSchema);
 
-module.exports = Car; 
+module.exports = Car;
